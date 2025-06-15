@@ -278,9 +278,17 @@ export default async function decorate(block) {
       <form action="/search" method="GET">
         <input id="search" type="search" name="q" placeholder="Search" />
         <div id="search_autocomplete" class="search-autocomplete"></div>
+        </br>
+        <SearchField>
+          <Label>Search</Label>
+          <Input />
+          <Button>Go</Button>
+        </SearchField>
       </form>
     </div>
   </div>
+  </div>
+
   `);
 
   navTools.append(search);
